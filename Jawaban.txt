@@ -1,0 +1,45 @@
+1.	Monitor area Depok pembelian bulan Juli tahun 2022 ke 12
+MNDPK07202212
+
+2.	Class Worker {
+constructor() {
+}
+
+basicSalary() {
+return  this.hoursWorked * this.rate;
+}
+
+overviewSalary() {
+basicSalary() + this.TAX;
+}
+}
+ 
+3.	function()
+{
+let error;
+if(OK(Run1())){
+}
+else{
+error = Run1Err;
+}
+
+if(OK(Run2())){
+}
+else{
+error = Run2Err;
+}
+
+if(OK(Run3())){
+}
+else{
+error = Run3Err;
+}
+
+if(OK(Run4())){
+}
+else{
+error = Run4Err;
+}
+   return error;
+}
+
